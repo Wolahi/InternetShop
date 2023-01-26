@@ -1,0 +1,431 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    
+body{
+    display: flex;
+    min-width: 1440px;
+    min-height: 900px;
+    width: 100%;
+    height:100%;
+    overflow-y: scroll;
+    background:#EAEAEA;
+}
+.container {
+    margin-left: 11.46%;
+    width: 78.82%;
+    height: 100%;
+    
+}
+a:link {
+    font-style: none;
+    text-decoration: none;
+    color: #101010;
+}
+
+a:visited {
+    font-style: none;
+    text-decoration: none;
+    color: #101010;
+}
+
+
+.descktopTop { 
+    display: flex;
+    min-width: 1135px;
+    width: 100%;
+    height: 3.66%;
+    padding-top:1.5% ;
+    background: #EAEAEA;   
+
+}
+#compName{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size:   150%;
+    line-height: 100%;
+    color: #101010;   
+}
+
+#boxForBasket{
+    flex: 1;
+    width: 18%;
+    margin-left: 82.08%;
+}
+
+#VectorFavorite{
+    margin-right: 30%;
+    margin-bottom: 3%;
+
+
+}
+
+#VectorBasket {
+    margin-bottom: 1%;
+}
+
+footer {    
+    padding-top: 1%;
+    margin-top: 0;
+    display: flex;
+    padding-left: 2%;
+    left: 0;
+    width: 100%;
+    height:16.56%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px 30px 0px 0px;
+}
+
+.contact{
+    display: grid;
+    gap: 15%;
+    grid-template-areas:
+    "A A A A   B B B B "
+    "A A A A   C C C C"
+    "A A A A   C C C C";
+    grid-template-rows: 80%;
+    margin-left: 19.26%;  
+    width: 38.47%; 
+    height: 55.57%; 
+}
+#group11{
+    grid-area: A;
+    width: 50%;
+    height: 100%;
+    margin-top: 2%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap:7.32%;
+}
+.header3{
+    width: 7.66%;
+    height:20.13%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 150%;
+    line-height: 100%;
+
+    color: #101010;
+}
+
+#itemInContacts{
+    font-family: 'Montserrat',  sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 105%;
+    line-height: 130%;
+}
+
+#group12{
+    margin-top: 3.5%;
+    grid-area: B;
+    text-align: center;
+}
+
+#group28 {
+    grid-area: C;  
+    display: grid;
+    grid-template-columns: repeat(3,15%);
+    grid-column-gap:1% ;
+    text-align: right;
+    margin-bottom: 5%;
+    margin-left: 16%;
+}
+
+#txtForLanguage {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 100%;
+    line-height: 100%;
+
+    color: #101010;
+}
+
+#choose {
+    font-weight: 700;
+    color:#FFA542;
+
+}
+
+.social {
+  display: grid;
+  width: 14%;
+  height: 30%;
+  grid-template-columns: repeat(3,1fr);
+  align-items: center;
+  margin-left: 20%;
+}
+.buyCont {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-areas: 
+    "A A A A A B B B"}
+.buyMenu {
+    justify-self: right;
+    grid-area: B;
+    margin-top: 5%;
+    width: 350px;
+    height: 114px;
+}
+#byuMenyZero {
+    justify-self: center;
+    width:89%;
+    height: 18.67%;
+}
+
+.calculateCost {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 70%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+
+.zeroCont{
+    align-self: center;
+    padding-top: 3%;
+    margin-left: 30%;
+    flex-wrap: wrap;
+    width: 40%;
+    height: 15%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    transition: .3s;
+}
+
+#textForBuyMenu {
+    margin-top: 5%;
+    margin-left: 6.32%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size:100%;
+    line-height: 110%;
+
+    color: #000000;
+}
+
+#costSum {
+    margin-top: 5%;
+    margin-left:  58.4%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 100%;
+    line-height: 110%;
+    
+    color: #000000;
+}
+
+#button {
+    text-align: center;
+    margin-top: 5% ;
+    padding-top: 7%;
+    width: 100%;
+    height:100%;
+    background: #101010;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    transition: .3s;
+}
+#button:hover {
+    cursor: pointer;
+    background: #6b6b6b;
+}
+
+#button:active {
+    background: #2b2b2b;
+}
+.zeroCont .button {
+    height: 70%;
+    padding-bottom: 10%;
+}
+
+.zeroCont #textForBuyMenu  {
+    margin-left:34%;
+}
+
+#buttonText {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size:120%;
+line-height: 110%;
+
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+
+h3 {
+    margin-top: 2%;
+    margin-right: 93.5%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 125%;
+    line-height: 122%;
+    color: #1C1C27;
+}
+.basket {
+   margin-top: 2%;
+   margin-left: 1.5%;
+   grid-area:A;
+   display: grid;
+   height: 110%;
+   min-width:  633px;
+   min-height: 751px;
+   grid-template-rows: repeat(3,30%);
+   grid-row-gap: 2%;
+   transition: .2s;
+}
+.elBasket {
+    display: grid;
+    grid-template-columns: 30% 52% auto;
+    grid-column-gap: 2%;
+    align-items: center;
+    min-height: 218px;
+    min-width: 633px;  
+    padding-right: 2%;
+    list-style-type: none;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+  
+}
+.basket:hover {
+    min-width: 800px;
+}
+.imgAdd {
+    margin-bottom: 5%;
+    width: 25.15%;
+    margin-left: 5%;
+    height: 100%; 
+    display: grid;
+    grid-template-rows: 80% 25%;
+}
+.imgScr {
+    align-items: center;
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width:100%;
+}
+
+.imgScr img {
+    min-width:50%;
+    min-height:70%;
+}
+
+.nameText {
+    width: 100%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 120%;
+    line-height: 120%;
+    color: #1C1C27;
+
+    
+}
+
+
+.deletPurchase{
+   justify-content: center;
+   margin-top: 20%;
+   margin-right: 30%;
+   justify-self: right;
+
+}
+.deletPurchase img {
+    transition: 0.3s;
+    width: 110%;
+    height: 20%;
+}
+.deletPurchase:hover,#minus:hover,#plus:hover{
+    cursor: pointer;
+    opacity: 0.5;
+ }
+.deletPurchase:active, #minus:active,#plus:active{
+    opacity: 0.9;
+}
+
+.cost {
+    align-self: flex-end;
+    width: 10%;
+    margin-bottom: 20%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 140%;
+    line-height: 100%;
+    text-align: right;
+    color: #1C1C27;
+}
+.nameCost {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 25%;
+    margin-bottom: 20%;
+}
+.delCost {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 25%;
+}
+.secondCost {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 120%;
+    line-height: 100%;
+
+color: #AAAAAA;
+}
+.plusMinus {
+    margin-left: 5%;
+    display: flex;
+    width:100%;
+    height: 100%;
+ 
+}
+.plusMinus img {
+    margin-top: 5%;
+    width:25%;
+    height: 60%;
+ 
+}
+
+#minus {
+    margin-left: 15%;
+}
+
+.textPlusMinus {
+    margin-top:10%;
+    margin-left: 15%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 120%;
+    line-height: 120%;
+
+
+    color: #000000; 
+}
